@@ -1,0 +1,70 @@
+body{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.card-img-top{
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.card{
+  margin: 50px auto;
+  border-radius: 1rem;
+}
+
+.container{
+  border-radius: 0.5rem;
+  margin: 20px 0;
+  padding: 20px 0;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.card-title{
+  font-weight: 900;
+  margin: 15px 0;
+}
+
+.card-text{
+  font-size: 16px;
+  color: grey;
+}
+
+.subs-icon{
+  padding-right: 0;
+}
+
+.subscription{
+  font-size: 16px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.subs-change-div{
+  padding: 5px 0;
+}
+
+.href-link{
+  font-size: 15px;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
+
+.payment-btn{
+  color: white;
+  background-color:  hsl(245, 75%, 52%);
+  border-radius: 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 50px;
+}
+
+.cancel{
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+}
+
+.attribution{
+  font-size: 12px;
+  padding: 25px 0 5px;
+}
