@@ -13,7 +13,7 @@ body{
 }
 .background-img-bottom{
   background-color: #e0e8ff;
-  height: 660px;
+  height: 760px;
   left: 0;
   position: absolute;
   transform: rotate(180deg);
@@ -23,7 +23,7 @@ body{
 
 @media (min-width: 375px) {
   .card {
-    width: 18rem;
+    width: 19rem;
     margin: 40px auto;
     border-radius: 1rem;
   }
@@ -52,7 +52,7 @@ body{
   /* top: 40px;
   left: 550px;
   right: auto; */
-  margin: 40px auto;
+  margin: 100px auto;
   border-radius: 1rem;
 }
 
@@ -110,5 +110,11 @@ body{
 
 .attribution{
   font-size: 12px;
-  padding: 25px 0 5px;
+  padding: 0 0 10px;
+  text-align: center;
+}
+
+.real-links{
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
 }
