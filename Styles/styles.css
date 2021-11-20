@@ -13,7 +13,7 @@ body{
 }
 .background-img-bottom{
   background-color: #e0e8ff;
-  height: 760px;
+  height: 820px;
   left: 0;
   position: absolute;
   transform: rotate(180deg);
@@ -23,7 +23,7 @@ body{
 
 @media (min-width: 375px) {
   .card {
-    width: 19rem;
+    width: 22rem;
     margin: 40px auto;
     border-radius: 1rem;
   }
@@ -56,20 +56,27 @@ body{
   border-radius: 1rem;
 }
 
+.card-body{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .container{
   border-radius: 0.5rem;
-  margin: 20px 0;
-  padding: 20px 0;
+  margin: 25px 0;
+  padding: 25px 0;
   background-color: hsl(225, 100%, 98%) ;
 }
 
 .card-title{
+  font-size: 30px;
   font-weight: 900;
   margin: 15px 0;
 }
 
 .card-text{
   font-size: 16px;
+  margin: auto 20px;
   color: grey;
 }
 
@@ -106,6 +113,7 @@ body{
   font-size: 15px;
   font-weight: bold;
   color: grey;
+  padding: 15px;
 }
 
 .attribution{
